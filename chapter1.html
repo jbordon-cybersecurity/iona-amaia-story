@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Sets the character encoding for the document -->
+  <meta charset="UTF-8" />
+
+  <!-- Ensures the page scales properly on all devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Title shown in browser tab -->
+  <title>Chapter 1 - The Enchanted Garden</title>
+
+  <!-- Links to your external CSS stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Loads handwritten fonts from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Atma&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Marhey&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sofia&family=Mystery+Quest&display=swap" rel="stylesheet">
+</head>
+
+<!-- Applies background for Chapter 1 -->
+<body class="chapter1">
+
+  <!-- Navigation Bar -->
+  <nav class="story-nav">
+    <ul>
+      <li><a href="../index.html">🏠 Home</a></li> <!-- Goes back to the group index -->
+      <li><a href="index.html">The Gate</a></li>
+      <li><a href="chapter1.html">The Garden</a></li>
+      <li><a href="chapter2.html">Library</a></li>
+      <li><a href="chapter3.html">Golden Pond</a></li>
+      <li><a href="chapter4.html">The Choice</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page heading -->
+  <header>
+    <h1>THE ENCHANTED GARDEN</h1>
+  </header>
+
+  <!-- Story text and buttons -->
+  <div class="container">
+
+    <!-- Story paragraphs -->
+    <p>The garden <span class="name-highlight">Iona</span> glowed with quiet magic, like it had been waiting just for them. 
+    <span class="name-highlight">Iona</span> gently touched a soft, <strong>flower</strong>.</p>
+
+    <p>"It feels alive," she whispered. 
+    <span class="name-highlight">Amaia</span> touched the <strong>shiny grass</strong> and saw little glowing footprints appear. 
+    "It’s like the garden knows we’re here," she said, smiling.</p>
+
+    <p>In front of them, two paths appeared: To the left, a <strong>glowing butterfly</strong> flew through the silver mist. 
+    Its wings left little sparkles in the air.</p>
+
+    <!-- Story images -->
+    <img class="story-image story-thumbnail" src="images/new-butterfly-nobg.png" alt="Glowing Butterfly" />
+
+    <p>To the right, a <strong>hedgehog</strong> peeked out from under twisty vines. 
+    Its tiny eyes watched them closely.</p>
+
+    <img class="story-image story-thumbnail" src="images/hedgehog-removebg.png" alt="Friendly Hedgehog" />
+
+    <p><span class="name-highlight">Amaia</span> looked at both paths. "Should we follow the light or go where it’s quiet?"</p>
+    <p><strong>It was their choice.</strong></p>
+
+    <!-- Navigation buttons -->
+    <div class="button-container">
+      <button data-link="chapter2.html">Follow the Butterfly</button>
+      <button data-link="chapter3.html">Follow the Hedgehog</button>
+    </div>
+
+  </div>
+
+  <!-- Footer message -->
+  <footer>
+    <p>🦋 With love from Iona & Amaia 🦋</p>
+    <p style="font-size: 25px; margin-top: 10px; color: #ccc;">"Forever in our hearts" 🐾💛 Meatball 💛🐾 </p>
+  </footer>
+
+  <!-- Background particle effect layer -->
+  <div id="magicParticles"></div>
+
+  <!-- Loads the particles library -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <!-- Custom JS script -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>

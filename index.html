@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Sets the character encoding for the document -->
+  <meta charset="UTF-8" />
+
+  <!-- Ensures the page scales properly on all devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Sets the page title (appears on browser tab) -->
+  <title>The Secret Garden of Iona & Amaia</title>
+
+  <!-- Links to your external CSS stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Loads handwritten fonts from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Atma&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Marhey&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Sofia&family=Mystery+Quest&display=swap" rel="stylesheet" />
+</head>
+
+<body class="index"> <!-- Applies a specific background style using the .index CSS class -->
+
+  <!-- Navigation Bar -->
+  <nav class="story-nav">
+    <ul>
+      <li><a href="../index.html">🏠 Home</a></li> <!-- Goes back to the group index -->
+      <li><a href="index.html">The Gate</a></li>
+      <li><a href="chapter1.html">The Garden</a></li>
+      <li><a href="chapter2.html">Library</a></li>
+      <li><a href="chapter3.html">Golden Pond</a></li>
+      <li><a href="chapter4.html">The Choice</a></li>
+    </ul>
+  </nav>   
+
+  <!-- Page Heading -->
+  <header>
+    <h1>
+      <img class="header-image" src="images/book-title.png" alt="Book Title" />
+    </h1>
+  </header>
+
+  <!-- Story text and button -->
+  <div class="container">
+
+    <p>
+      <span class="name-highlight">Iona</span> and <span class="name-highlight">Amaia</span> had always wondered about the
+      <strong>ivy-covered</strong> gate at the edge of the forest.
+    </p>
+
+    <p>
+      One evening, a soft breeze pushed it open, revealing a hidden <strong>enchanted garden</strong>. 
+      As they stepped inside, the air shimmered, and the world around them changed.
+    </p>
+
+    <p>
+      In the distance, a <strong>glowing butterfly</strong> fluttered near a silver tree, 
+      while a curious hedgehog watched them from beneath a <strong>twisted archway</strong>.
+    </p>
+
+    <!-- Start Story Button -->
+    <button data-target="chapter1.html">Start Story</button>
+  </div>
+
+  <!-- Footer message -->
+  <footer>
+    <p>🦋 With love from Iona & Amaia 🦋</p>
+    <p style="font-size: 25px; margin-top: 10px; color: #ccc;">
+      "Forever in our hearts" 🐾💛 Meatball 💛🐾
+    </p>
+  </footer>
+
+  <!-- Background particle effect layer -->
+  <div id="magicParticles"></div>
+
+  <!-- Loads the particles library -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <!-- Custom JavaScript file -->
+  <script src="script.js" defer></script>
+
+</body>
+</html>
