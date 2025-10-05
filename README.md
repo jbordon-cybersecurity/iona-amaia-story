@@ -1,3 +1,4 @@
+```bash
 🌸 Iona & Amaia Story
 An interactive, multi-chapter story built with HTML, CSS, and JavaScript.
 Follow the journey of Iona and Amaia as their story unfolds across chapters, choices, and alternate endings.
